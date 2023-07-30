@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primaryColor: #edf2fc;
+    --secondaryColor: #212121;
+}
+
+.dark-theme {
+    --primaryColor: #0c0101;
+    --secondaryColor: #edf2fc;
+}
+
+/* Add media query for mobile devices */
+@media (max-width: 768px) {
+    nav {
+        width: 90%;
+    }
+
+    .info {
+        margin-left: 0;
+        margin-top: 10%;
+        text-align: center;
+    }
+
+    .info h1 {
+        font-size: 40px;
+    }
+
+    .img-box {
+        width: 80%;
+        height: auto;
+        position: static;
+        margin: 20px auto;
+    }
+
+    .img-box img {
+        width: 100%;
+        height: auto;
+        position: static;
+        left: 0;
+        transform: none;
+        transition: none;
+    }
+
+    .social-links {
+        margin: 20px auto;
+        text-align: center;
+    }
+}
+
+
+
